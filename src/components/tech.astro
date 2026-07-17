@@ -71,14 +71,19 @@ try {
           </h3>
           
           <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-5 sm:gap-8">
-            {category.skills.map((skill) => (
-              /* 'skill-card' and 'opacity-0' class already maintain reveal animation */
-              <div class="skill-card opacity-0 group relative flex items-stretch min-h-14 rounded-xl bg-accent/5 border border-accent/15 hover:border-accent/40 hover:bg-accent/10 transition-all duration-300">
+            {category.skills.map((skill) => {
+              const imageSrc = skill.image
+                ? `${import.meta.env.BASE_URL}${skill.image.replace(/^\/+/, '')}`
+                : undefined;
+
+              return (
+                /* 'skill-card' and 'opacity-0' class already maintain reveal animation */
+                <div class="skill-card opacity-0 group relative flex items-stretch min-h-14 rounded-xl bg-accent/5 border border-accent/15 hover:border-accent/40 hover:bg-accent/10 transition-all duration-300">
                 
                 <div class="shrink-0 w-12 flex items-center justify-center rounded-l-xl bg-accent/15 transition-colors group-hover:bg-accent/20">
                                     {skill.image ? (
                     <img
-                      src={skill.image}
+                      src={imageSrc}
                       alt={`Logo de ${skill.name}`}
                       class="w-9 h-9 object-contain drop-shadow-[0_0_8px_rgba(245,190,0,0.35)] group-hover:scale-110 transition-transform"
                       loading="lazy"
@@ -106,8 +111,9 @@ try {
                     />
                   ))}
                 </div>
-              </div>
-            ))}
+                </div>
+              );
+            })}
           </div>
         </div>
       ))}
