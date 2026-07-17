@@ -5,6 +5,7 @@ import icon from 'astro-icon';
 
 export default defineConfig({
   site: 'https://mnieto2212.github.io',
+  base: '/Mnieto22122.github.io',
   vite: {
     plugins: [tailwindcss()]
   },
