@@ -1,5 +1,13 @@
 [
   {
+    "company": "LocalData",
+    "role": "Data Scientist",
+    "period": "May 2026",
+    "type": "Práctica profesional",
+    "description": "Desarrollé dashboards en Power BI para monitorear vacaciones, disponibilidad y asignación de personal. Construí y actualicé una base de datos en Excel para reportabilidad, mejorando el control de información y reduciendo el tiempo de revisión manual.",
+    "skills": ["Power BI", "Excel", "Reporting", "Análisis de datos", "SQL", "Bizagi"]
+  },
+  {
     "company": "INROPLAS Chile",
     "role": "Practicante de Ingeniería Industrial — Análisis Comercial y de Mercado",
     "period": "Feb 2026",
@@ -11,14 +19,6 @@
     "company": "Factor IT",
     "role": "Practicante de Ingeniería Industrial — Análisis de Datos y Procesos",
     "period": "Mar 2024",
-    "type": "Práctica profesional",
-    "description": "Desarrollé dashboards en Power BI para monitorear vacaciones, disponibilidad y asignación de personal. Construí y actualicé una base de datos en Excel para reportabilidad, mejorando el control de información y reduciendo el tiempo de revisión manual.",
-    "skills": ["Power BI", "Excel", "Reporting", "Análisis de datos", "SQL", "Bizagi"]
-  },
-  {
-    "company": "LocalData",
-    "role": "Data Scientist",
-    "period": "May 2026",
     "type": "Práctica profesional",
     "description": "Desarrollé dashboards en Power BI para monitorear vacaciones, disponibilidad y asignación de personal. Construí y actualicé una base de datos en Excel para reportabilidad, mejorando el control de información y reduciendo el tiempo de revisión manual.",
     "skills": ["Power BI", "Excel", "Reporting", "Análisis de datos", "SQL", "Bizagi"]
