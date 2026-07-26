@@ -2,10 +2,10 @@
   {
     "company": "LocalData",
     "role": "Data Scientist",
-    "period": "May 2026",
-    "type": "Práctica profesional",
-    "description": "Desarrollé dashboards en Power BI para monitorear vacaciones, disponibilidad y asignación de personal. Construí y actualicé una base de datos en Excel para reportabilidad, mejorando el control de información y reduciendo el tiempo de revisión manual.",
-    "skills": ["Power BI", "Excel", "Reporting", "Análisis de datos", "SQL", "Bizagi"]
+    "period": "May 2026 - Presente",
+    "type": "Trabajo profesional",
+    "description": "Analizo información de consumo masivo del canal tradicional, asegurando la calidad y consistencia de indicadores comerciales. Desarrollo análisis de tendencias y comportamientos atípicos por categoría, zona y tienda, además de automatizar procesos de transformación y reporting mediante SQL, Python, R y Excel.",
+    "skills": ["SQL", "Python", "Reporting", "Excel", "R", "Data Quality"]
   },
   {
     "company": "INROPLAS Chile",
