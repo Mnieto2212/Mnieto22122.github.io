@@ -3,7 +3,7 @@
     {
       "title": "Análisis de Datos",
       "skills": [
-        { "name": "SQL", "level": 3, "icon": "skill-icons:mysql-dark" },
+        { "name": "SQL", "level": 2, "icon": "skill-icons:mysql-dark" },
         { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
         { "name": "R", "level": 2, "icon": "skill-icons:r-dark" }
       ]
@@ -11,7 +11,7 @@
     {
       "title": "BI y Visualización",
       "skills": [
-        { "name": "Power BI", "level": 3 },
+        { "name": "Power BI", "level": 2 },
         { "name": "Tableau", "level": 2, "icon": "mdi:view-dashboard" },
         { "name": "Looker Studio", "level": 2, "icon": "mdi:google-analytics" }
       ]
@@ -21,7 +21,7 @@
       "skills": [
         { "name": "Excel", "level": 3, "icon": "vscode-icons:file-type-excel" },
         { "name": "Power Query", "level": 2, "icon": "mdi:table-arrow-right" },
-        { "name": "DAX", "level": 2, "icon": "mdi:function-variant" }
+        { "name": "DAX", "level": 1, "icon": "mdi:function-variant" }
       ]
     },
     {
